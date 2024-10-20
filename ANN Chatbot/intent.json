@@ -1,0 +1,32 @@
+{"intents":     [
+    {"tag": "greetings",
+    "patterns": ["hello", "hi", "hey", "good day", "greetings", "what's up?", "how are you", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "How can I help you today?", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["goodbye", "see you later", "bye", "I am leaving", "cya", "have a good day", "Thanks alot, bye!", "Bye bye"],
+    "responses": ["You're welcome!", "It was a pleasure helping you!", "Ask me anyting anytime!", "See you soon!"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "what is your age", "hwo old are you", "age?", "when were you progrmmed?"],
+    "responses": ["Sorry, I am a chatbot programmed to help you! Therefore, I dont have an age to specify!", "I was programmed at 2024!"]
+    },
+    {"tag": "name",
+    "patterns": ["whats your name", "your name?", "what do i call you?", "do u have a name?", "what's up?", "how are you", "how is it going?"],
+    "responses": ["You can call me ZAK !", "I am ZAK", "My name is ZAK, how may I help you today?"]
+    },
+    {"tag": "shop",
+    "patterns": ["what do you have", "I like to buy something", "what are you selling", "what products do you have"],
+    "responses": ["Python Go-To Book", "If you have a product in mind, I can help you select!"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are guys open", "how long are you open", "when do you close", "what are your hours", "hours of operation"],
+    "responses": ["24/7"]
+    },
+    {"tag": "stocks",
+    "patterns": ["what stocks do I own", "how are my shares?", "what company should i invest in?", "what am i doing in the market"],
+    "responses": ["You own the following shares: ABBV, APPL, FB, NVDA and an EIF of the S&P 500 Index!"]
+    }
+]
+    }
+
